@@ -1,0 +1,38 @@
+{
+  "name": "svt-lokala-kiosk",
+  "version": "1.0.0",
+  "description": "SVT-lokala nyhetsvinjett — ljudlös kioskversion för Playipp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "vite build",
+    "server": "node server.js",
+    "preview": "vite --port 3100",
+    "dev": "node server.js & vite --port 3100",
+    "studio": "remotion studio src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@remotion/player": "4.0.448",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "remotion": "4.0.448"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/tailwind": "^4.0.448",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.8"
+  }
+}
